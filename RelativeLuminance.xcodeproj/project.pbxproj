@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E66AB1201CCEEFF8000C0442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66AB11F1CCEEFF8000C0442 /* AppDelegate.swift */; };
+		08615A6DBE94736C4E83F824 /* Pods_RelativeLuminance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7976F1C64EBCA01EA8C2DCD9 /* Pods_RelativeLuminance.framework */; };
+		E66AB1201CCEEFF8000C0442 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66AB11F1CCEEFF8000C0442 /* main.swift */; };
 		E66AB1221CCEEFF8000C0442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66AB1211CCEEFF8000C0442 /* Assets.xcassets */; };
-		E66AB1251CCEEFF8000C0442 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E66AB1231CCEEFF8000C0442 /* MainMenu.xib */; };
+		E66AB1321CCF773C000C0442 /* NSColor_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66AB1311CCF773C000C0442 /* NSColor_Components.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48A2C7EE900C9451068DE03F /* Pods-RelativeLuminance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelativeLuminance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RelativeLuminance/Pods-RelativeLuminance.debug.xcconfig"; sourceTree = "<group>"; };
+		4D631DF936B27828C6C256D5 /* Pods-RelativeLuminance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelativeLuminance.release.xcconfig"; path = "Pods/Target Support Files/Pods-RelativeLuminance/Pods-RelativeLuminance.release.xcconfig"; sourceTree = "<group>"; };
+		7976F1C64EBCA01EA8C2DCD9 /* Pods_RelativeLuminance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelativeLuminance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66AB11C1CCEEFF8000C0442 /* RelativeLuminance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelativeLuminance.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E66AB11F1CCEEFF8000C0442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E66AB11F1CCEEFF8000C0442 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E66AB1211CCEEFF8000C0442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E66AB1241CCEEFF8000C0442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E66AB1261CCEEFF8000C0442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E66AB1311CCF773C000C0442 /* NSColor_Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColor_Components.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,17 +29,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08615A6DBE94736C4E83F824 /* Pods_RelativeLuminance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		825D1604A713B74604547C34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48A2C7EE900C9451068DE03F /* Pods-RelativeLuminance.debug.xcconfig */,
+				4D631DF936B27828C6C256D5 /* Pods-RelativeLuminance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD2F2D6666A9115E37B86438 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7976F1C64EBCA01EA8C2DCD9 /* Pods_RelativeLuminance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E66AB1131CCEEFF8000C0442 = {
 			isa = PBXGroup;
 			children = (
 				E66AB11E1CCEEFF8000C0442 /* RelativeLuminance */,
 				E66AB11D1CCEEFF8000C0442 /* Products */,
+				825D1604A713B74604547C34 /* Pods */,
+				DD2F2D6666A9115E37B86438 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,10 +74,10 @@
 		E66AB11E1CCEEFF8000C0442 /* RelativeLuminance */ = {
 			isa = PBXGroup;
 			children = (
-				E66AB11F1CCEEFF8000C0442 /* AppDelegate.swift */,
+				E66AB11F1CCEEFF8000C0442 /* main.swift */,
 				E66AB1211CCEEFF8000C0442 /* Assets.xcassets */,
-				E66AB1231CCEEFF8000C0442 /* MainMenu.xib */,
 				E66AB1261CCEEFF8000C0442 /* Info.plist */,
+				E66AB1311CCF773C000C0442 /* NSColor_Components.swift */,
 			);
 			path = RelativeLuminance;
 			sourceTree = "<group>";
@@ -65,9 +89,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E66AB1291CCEEFF8000C0442 /* Build configuration list for PBXNativeTarget "RelativeLuminance" */;
 			buildPhases = (
+				CE6D147410F68C92A3FA8E18 /* Check Pods Manifest.lock */,
 				E66AB1181CCEEFF8000C0442 /* Sources */,
 				E66AB1191CCEEFF8000C0442 /* Frameworks */,
 				E66AB11A1CCEEFF8000C0442 /* Resources */,
+				0BADF24D3E84214ECD231920 /* Embed Pods Frameworks */,
+				A61F18C5DA7463D8D0CCF174 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -117,33 +144,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				E66AB1221CCEEFF8000C0442 /* Assets.xcassets in Resources */,
-				E66AB1251CCEEFF8000C0442 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BADF24D3E84214ECD231920 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RelativeLuminance/Pods-RelativeLuminance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A61F18C5DA7463D8D0CCF174 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RelativeLuminance/Pods-RelativeLuminance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6D147410F68C92A3FA8E18 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E66AB1181CCEEFF8000C0442 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66AB1201CCEEFF8000C0442 /* AppDelegate.swift in Sources */,
+				E66AB1321CCF773C000C0442 /* NSColor_Components.swift in Sources */,
+				E66AB1201CCEEFF8000C0442 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E66AB1231CCEEFF8000C0442 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E66AB1241CCEEFF8000C0442 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E66AB1271CCEEFF8000C0442 /* Debug */ = {
@@ -230,6 +294,7 @@
 		};
 		E66AB12A1CCEEFF8000C0442 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A2C7EE900C9451068DE03F /* Pods-RelativeLuminance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -242,6 +307,7 @@
 		};
 		E66AB12B1CCEEFF8000C0442 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D631DF936B27828C6C256D5 /* Pods-RelativeLuminance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -271,6 +337,7 @@
 				E66AB12B1CCEEFF8000C0442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
