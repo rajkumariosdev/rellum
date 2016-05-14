@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Relum
+
+  Created by Joseph Blau on 5/14/16.
+  Copyright © 2016 Joe Blau. All rights reserved.
+*/
+
+"black" = "검은";
+"white" = "화이트";
+"quit" = "떠나다";

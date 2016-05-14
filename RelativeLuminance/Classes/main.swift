@@ -11,35 +11,35 @@ import SnapKit
 import RxCocoa
 import RxSwift
 
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate, RelumLabelDelegate {
 
-    var window = NSWindow()
-    var statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength)
-    let statusBarHeight = NSStatusBar.systemStatusBar().thickness
-    let bag = DisposeBag()
-    let textField = NSTextField()
-    let statusItemView = NSView()
+    private var window = NSWindow()
+    private var statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength)
+    private let statusBarHeight = NSStatusBar.systemStatusBar().thickness
+    private let bag = DisposeBag()
+    private let relumLabel = RelumLabel()
+    private let statusItemView = NSView()
+    private let ddMenu = NSMenu()
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         window.collectionBehavior = .CanJoinAllSpaces
 
+        
+        ddMenu.addItemWithTitle(NSLocalizedString("quit", comment: "quit"), action: #selector(quit), keyEquivalent: "")
+        
+        statusItem.menu = ddMenu
         statusItem.highlightMode = false
         statusItem.view = statusItemView
+
         statusItemView.snp_makeConstraints { (make) in
-            make.width.equalTo(100)
+            make.width.equalTo(64)
             make.height.equalTo(statusBarHeight)
         }
         
+        relumLabel.relumDelegate = self
+        statusItemView.addSubview(relumLabel)
         
-        textField.alignment = .Center
-        textField.font = NSFont.menuFontOfSize(16)
-        textField.backgroundColor = NSColor.redColor()
-        textField.stringValue = "Black"
-        textField.textColor = NSColor.blackColor()
-        textField.bordered = false
-        statusItemView.addSubview(textField)
-        
-        textField.snp_makeConstraints { (make) in
+        relumLabel.snp_makeConstraints { (make) in
             make.top.equalTo(statusItemView.snp_top).offset(2)
             make.left.equalTo(statusItemView.snp_left)
             make.right.equalTo(statusItemView.snp_right)
@@ -65,11 +65,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 }
                 let isWhite = 0.5 >= (0.2126 * pixelColor.components.red + 0.7152 * pixelColor.components.green + 0.0722 * pixelColor.components.blue)
 
-                self.textField.backgroundColor = pixelColor
-                self.textField.textColor = isWhite ? NSColor.whiteColor() : NSColor.blackColor()
-                self.textField.stringValue = isWhite ? "White" : "Black"
+                self.relumLabel.setWhite(isWhite)
             }
             .addDisposableTo(bag)
+    }
+    
+    // MARK: - RelumLabelDelegate
+    
+    func showMenu() {
+        statusItem.popUpStatusItemMenu(ddMenu)
+    }
+    
+    // MARK: - Selectors
+    
+    func quit() {
+        NSApp.terminate(self)
     }
 }
 
