@@ -32,7 +32,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, RelumLabelDelegate {
         statusItem.view = statusItemView
 
         statusItemView.snp_makeConstraints { (make) in
-            make.width.equalTo(64)
+            make.width.equalTo(80)
             make.height.equalTo(statusBarHeight)
         }
         
