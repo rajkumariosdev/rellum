@@ -22,7 +22,7 @@
 		7976F1C64EBCA01EA8C2DCD9 /* Pods_RelativeLuminance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelativeLuminance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF0DA6F52B69087677C6120 /* Pods-Relum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Relum/Pods-Relum.release.xcconfig"; sourceTree = "<group>"; };
 		D334705899F7EB6D2B527206 /* Pods-Relum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Relum/Pods-Relum.debug.xcconfig"; sourceTree = "<group>"; };
-		E66AB11C1CCEEFF8000C0442 /* Relum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E66AB11C1CCEEFF8000C0442 /* Rellum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rellum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B5CAAB1CE77272009503DC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E6B5CAAC1CE77272009503DC /* NSColor_Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColor_Components.swift; sourceTree = "<group>"; };
 		E6B5CAAD1CE77272009503DC /* RelumLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelumLabel.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		E66AB11D1CCEEFF8000C0442 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E66AB11C1CCEEFF8000C0442 /* Relum.app */,
+				E66AB11C1CCEEFF8000C0442 /* Rellum.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E66AB11B1CCEEFF8000C0442 /* Relum */ = {
+		E66AB11B1CCEEFF8000C0442 /* Rellum */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E66AB1291CCEEFF8000C0442 /* Build configuration list for PBXNativeTarget "Relum" */;
+			buildConfigurationList = E66AB1291CCEEFF8000C0442 /* Build configuration list for PBXNativeTarget "Rellum" */;
 			buildPhases = (
 				CE6D147410F68C92A3FA8E18 /* Check Pods Manifest.lock */,
 				E66AB1181CCEEFF8000C0442 /* Sources */,
@@ -153,9 +153,9 @@
 			);
 			dependencies = (
 			);
-			name = Relum;
+			name = Rellum;
 			productName = RelativeLuminance;
-			productReference = E66AB11C1CCEEFF8000C0442 /* Relum.app */;
+			productReference = E66AB11C1CCEEFF8000C0442 /* Rellum.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E66AB1171CCEEFF8000C0442 /* Build configuration list for PBXProject "Relum" */;
+			buildConfigurationList = E66AB1171CCEEFF8000C0442 /* Build configuration list for PBXProject "Rellum" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -203,7 +203,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E66AB11B1CCEEFF8000C0442 /* Relum */,
+				E66AB11B1CCEEFF8000C0442 /* Rellum */,
 			);
 		};
 /* End PBXProject section */
@@ -341,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -357,7 +357,7 @@
 				INFOPLIST_FILE = RelativeLuminance/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joeblau.RelativeLuminance;
-				PRODUCT_NAME = Relum;
+				PRODUCT_NAME = Rellum;
 			};
 			name = Release;
 		};
@@ -392,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -408,14 +408,14 @@
 				INFOPLIST_FILE = RelativeLuminance/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joeblau.RelativeLuminance;
-				PRODUCT_NAME = Relum;
+				PRODUCT_NAME = Rellum;
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E66AB1171CCEEFF8000C0442 /* Build configuration list for PBXProject "Relum" */ = {
+		E66AB1171CCEEFF8000C0442 /* Build configuration list for PBXProject "Rellum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E66AB1281CCEEFF8000C0442 /* Release */,
@@ -424,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E66AB1291CCEEFF8000C0442 /* Build configuration list for PBXNativeTarget "Relum" */ = {
+		E66AB1291CCEEFF8000C0442 /* Build configuration list for PBXNativeTarget "Rellum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E66AB12B1CCEEFF8000C0442 /* Release */,
