@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A9A3CC5EEC6D6557945D1C4 /* Pods_Relum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6D6013EF10E11DB61E05D2 /* Pods_Relum.framework */; };
+		97DCDA9306EF154E012EDE73 /* Pods_Rellum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BD015589991F36AB0D00ED /* Pods_Rellum.framework */; };
 		E6B5CAAE1CE77272009503DC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B5CAAB1CE77272009503DC /* main.swift */; };
 		E6B5CAAF1CE77272009503DC /* NSColor_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B5CAAC1CE77272009503DC /* NSColor_Components.swift */; };
 		E6B5CAB01CE77272009503DC /* RelumLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B5CAAD1CE77272009503DC /* RelumLabel.swift */; };
@@ -16,13 +16,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48A2C7EE900C9451068DE03F /* Pods-RelativeLuminance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelativeLuminance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RelativeLuminance/Pods-RelativeLuminance.debug.xcconfig"; sourceTree = "<group>"; };
-		4D631DF936B27828C6C256D5 /* Pods-RelativeLuminance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelativeLuminance.release.xcconfig"; path = "Pods/Target Support Files/Pods-RelativeLuminance/Pods-RelativeLuminance.release.xcconfig"; sourceTree = "<group>"; };
-		5F6D6013EF10E11DB61E05D2 /* Pods_Relum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Relum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7976F1C64EBCA01EA8C2DCD9 /* Pods_RelativeLuminance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelativeLuminance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACF0DA6F52B69087677C6120 /* Pods-Relum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Relum/Pods-Relum.release.xcconfig"; sourceTree = "<group>"; };
-		D334705899F7EB6D2B527206 /* Pods-Relum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Relum/Pods-Relum.debug.xcconfig"; sourceTree = "<group>"; };
+		4CEF9A4BE4475B4A5C33973C /* Pods-Rellum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rellum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rellum/Pods-Rellum.release.xcconfig"; sourceTree = "<group>"; };
+		6759B4373D4AE112783199EA /* Pods-Rellum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rellum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rellum/Pods-Rellum.debug.xcconfig"; sourceTree = "<group>"; };
+		C8BD015589991F36AB0D00ED /* Pods_Rellum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rellum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66AB11C1CCEEFF8000C0442 /* Rellum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rellum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E698C94C1CE7C1D700FD9A87 /* Rellum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Rellum.entitlements; sourceTree = "<group>"; };
 		E6B5CAAB1CE77272009503DC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E6B5CAAC1CE77272009503DC /* NSColor_Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColor_Components.swift; sourceTree = "<group>"; };
 		E6B5CAAD1CE77272009503DC /* RelumLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelumLabel.swift; sourceTree = "<group>"; };
@@ -53,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A9A3CC5EEC6D6557945D1C4 /* Pods_Relum.framework in Frameworks */,
+				97DCDA9306EF154E012EDE73 /* Pods_Rellum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,10 +61,8 @@
 		825D1604A713B74604547C34 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48A2C7EE900C9451068DE03F /* Pods-RelativeLuminance.debug.xcconfig */,
-				4D631DF936B27828C6C256D5 /* Pods-RelativeLuminance.release.xcconfig */,
-				ACF0DA6F52B69087677C6120 /* Pods-Relum.release.xcconfig */,
-				D334705899F7EB6D2B527206 /* Pods-Relum.debug.xcconfig */,
+				4CEF9A4BE4475B4A5C33973C /* Pods-Rellum.release.xcconfig */,
+				6759B4373D4AE112783199EA /* Pods-Rellum.debug.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -74,8 +70,7 @@
 		DD2F2D6666A9115E37B86438 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7976F1C64EBCA01EA8C2DCD9 /* Pods_RelativeLuminance.framework */,
-				5F6D6013EF10E11DB61E05D2 /* Pods_Relum.framework */,
+				C8BD015589991F36AB0D00ED /* Pods_Rellum.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,6 +78,7 @@
 		E66AB1131CCEEFF8000C0442 = {
 			isa = PBXGroup;
 			children = (
+				E698C94C1CE7C1D700FD9A87 /* Rellum.entitlements */,
 				E66AB11E1CCEEFF8000C0442 /* RelativeLuminance */,
 				E66AB11D1CCEEFF8000C0442 /* Products */,
 				825D1604A713B74604547C34 /* Pods */,
@@ -171,6 +167,11 @@
 					E66AB11B1CCEEFF8000C0442 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = K78G42H4U2;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -233,7 +234,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relum/Pods-Relum-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rellum/Pods-Rellum-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A61F18C5DA7463D8D0CCF174 /* Copy Pods Resources */ = {
@@ -248,7 +249,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relum/Pods-Relum-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rellum/Pods-Rellum-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CE6D147410F68C92A3FA8E18 /* Check Pods Manifest.lock */ = {
@@ -349,9 +350,10 @@
 		};
 		E66AB12B1CCEEFF8000C0442 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACF0DA6F52B69087677C6120 /* Pods-Relum.release.xcconfig */;
+			baseConfigurationReference = 4CEF9A4BE4475B4A5C33973C /* Pods-Rellum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rellum.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = RelativeLuminance/SupportingFiles/Info.plist;
@@ -400,9 +402,10 @@
 		};
 		E6B5CA9E1CE7554A009503DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D334705899F7EB6D2B527206 /* Pods-Relum.debug.xcconfig */;
+			baseConfigurationReference = 6759B4373D4AE112783199EA /* Pods-Rellum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rellum.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = RelativeLuminance/SupportingFiles/Info.plist;

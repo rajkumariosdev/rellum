@@ -3,7 +3,7 @@ platform :osx, '10.10'
 # Uncomment this line if you're using Swift
 use_frameworks!
 
-target 'Relum' do
+target 'Rellum' do
   pod 'SnapKit', '~> 0.20'
   pod 'RxSwift', '~> 2.0'
   pod 'RxCocoa', '~> 2.0'
